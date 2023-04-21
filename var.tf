@@ -1,0 +1,14 @@
+variable "name" {}
+variable "strategy" {}
+variable "name_prefix" {}
+variable "image_id" {}
+variable "instance_type" {}
+variable "key_name" {}
+variable "security_groups" {}
+variable "asg_name" {}
+variable "max_size" {}
+variable "min_size" {}
+variable "health_check_grace_period" {}
+variable "health_check_type" {}
+variable "desired_capacity" {}
+variable "vpc_zone_identifier" {}
